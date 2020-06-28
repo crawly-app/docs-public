@@ -59,9 +59,9 @@ module.exports = {
     //   indexName: '<INDEX_NAME>'
     // }
     // Assumes GitHub. Can also be a full GitLab url.
-    // repo: "crawly-app/docs",
-    // repoLabel: "Contribute on Github",
-    // docsRepo: "crawly-app/docs",
+    repo: "crawly-app/docs-public",
+    repoLabel: "Contribute on Github",
+    docsRepo: "crawly-app/docs-public",
     // defaults to false, set to true to enable
     editLinks: false,
     // custom text for edit link. Defaults to "Edit this page"
@@ -82,23 +82,3 @@ module.exports = {
     ]
   ]
 };
-
-function genSidebarConfig(title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        "",
-        "getting-started",
-        "how-to-ping",
-        "sending-data-to-cronhub",
-        "monitor-states",
-        "integrations",
-        "public-api",
-        "cronhub-cli",
-        "community",
-      ],
-    },
-  ];
-}
