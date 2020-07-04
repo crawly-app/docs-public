@@ -8,15 +8,29 @@ When you create a team, it will be asigned to `Trial` plan which has only 7-days
 resources. In order to further usage of Crawly, you will need to subscribe one of the plans. For that you will need
 to create your `Billing Details` and `Payment Method`. 
  
-## What is Billing Details?
-We do require billing details such as your address, contact person and email address to be used in receipt every
-billing cycle. We only use this information to generate receipt. This information will also be used in payment
-gateway service we perform payment process.
+## How subscription works?
+We use [Paddle](https://paddle.com/) payment gateway to manage subscriptions. Based on your location, you can have multiple payment methods.
+Once you subscribe to a plan, every month/year you will be charged plan cost. If you would like to cancel your
+subscription, you can cancel it on `Team Settings` > `Billing` click `Cancel` button on the subscribed plan.
+ 
+Accepted payment methods:
+- Mastercard
+- Visa
+- Maestro
+- American Express
+- Discover
+- Diners Club
+- JCB
+- UnionPay
+- PayPal
+- Apple Pay*
+- Wire Transfers (ACH/SEPA/BACS)
 
-## What is Payment Method?
-In order to subscribe to a plan, you will need to register your payment method with your credit or debit card. We do
-not store your card information by alias of it, such as `XXXX-XXXX-XXXX-1111`. The alias would help you to determine
-which card you registered on Crawly.
+_These payment methods can vary based on your location._
 
-You may add or delete your payment method. Bear in mind that if you have only one payment method, you won't be able
-to delete it until add new one to replace.
+## How to update payment information?
+If you would like to change your payment method, you can achieve it on `Team Settings` > `Billing` click `Update Card
+ Info`
+ 
+## Custom Plans
+Currently, we have only two subscription plans. If you would like to subscribe higher plans, please contact with us.

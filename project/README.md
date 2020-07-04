@@ -1,7 +1,7 @@
-# Projects
+# Project
 
 ## What is a Project?
-A project is a website that you desire to check broken resources.
+A project is a website that you desire to monitor.
 
 ## What is a Schedule?
 Schedule is a time which defines when Crawly will start to crawl your project. You can add more than one schedule

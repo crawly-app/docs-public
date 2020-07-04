@@ -44,6 +44,18 @@ module.exports = {
         ]
       },
       {
+        title: 'Project',   // required
+        path: '/project/',      // optional, link of the title, which should be an absolute path and must exist
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 1,    // optional, defaults to 1
+        children: [
+          '/project/',
+          '/project/uptime',
+          '/project/resource-monitoring',
+          '/project/certificate-monitoring',
+        ]
+      },
+      {
         title: 'API',   // required
         path: '/api/',      // optional, link of the title, which should be an absolute path and must exist
         collapsable: false, // optional, defaults to true
@@ -80,5 +92,5 @@ module.exports = {
         updatePopup: true
       }
     ]
-  ]
+  ],
 };
